@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>知感社区 | 发现优质观点</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Serif+SC:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page">
+    <header class="header">
+      <div class="brand">
+        <div class="brand-mark">知</div>
+        <div>
+          <div class="brand-title">知感</div>
+          <div class="brand-subtitle">灵感与答案的交汇</div>
+        </div>
+      </div>
+      <nav class="nav">
+        <a href="#topics">话题</a>
+        <a href="#answers">回答</a>
+        <a href="#collections">专栏</a>
+      </nav>
+      <div class="actions">
+        <div class="search">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15.5 14h-.79l-.28-.27a6.5 6.5 0 1 0-.71.71l.27.28v.78l5 4.99L20.49 19l-4.99-5zm-6 0A4.5 4.5 0 1 1 14 9.5 4.5 4.5 0 0 1 9.5 14z" fill="currentColor"/></svg>
+          <input type="search" placeholder="搜索你感兴趣的内容" />
+        </div>
+        <button class="btn ghost">登录</button>
+        <button class="btn primary">注册 / 提问</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-text">
+          <p class="badge">新一代问答社区 · 知乎风格</p>
+          <h1>和世界分享你的专业视角</h1>
+          <p class="lead">精选的长文与深度回答，简洁干净的排版，让每一次阅读都像翻阅杂志。</p>
+          <div class="hero-actions">
+            <button class="btn primary">开始浏览</button>
+            <button class="btn ghost">发布问题</button>
+          </div>
+          <div class="stats">
+            <div><span>2.3k</span><small>优质话题</small></div>
+            <div><span>18k</span><small>深度回答</small></div>
+            <div><span>320</span><small>精选专栏</small></div>
+          </div>
+        </div>
+        <div class="hero-card">
+          <div class="card-header">
+            <span class="tag">正在热议</span>
+            <div class="dots">
+              <span></span><span></span><span></span>
+            </div>
+          </div>
+          <div class="card-topic">
+            <p class="eyebrow">数字生活 · 话题</p>
+            <h3>AI 将如何重塑普通人的职业路径？</h3>
+            <p class="summary">从笔记工具到编程助手，我们正在经历一场内容创作与知识工作的彻底革新。</p>
+          </div>
+          <div class="card-answers">
+            <article>
+              <h4>产品经理的视角</h4>
+              <p>“AI 让用户研究更精确，也让需求验证更快速。好的产品依旧来源于真实场景。”</p>
+            </article>
+            <article>
+              <h4>设计师的视角</h4>
+              <p>“以人为本的体验不会过时。AI 更像是让创意落地的放大器。”</p>
+            </article>
+          </div>
+          <div class="card-footer">
+            <button class="btn text">查看讨论</button>
+            <button class="btn text">关注话题</button>
+          </div>
+        </div>
+      </section>
+
+      <section id="topics" class="section">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">热门话题</p>
+            <h2>灵感与思考的起点</h2>
+          </div>
+          <button class="btn ghost">全部话题</button>
+        </div>
+        <div class="grid cards">
+          <article class="card topic">
+            <p class="tag">科技 · 焦点</p>
+            <h3>大模型时代的个人竞争力</h3>
+            <p>如何结合行业知识和工具链，打造不可替代的专业形象。</p>
+            <div class="meta"><span>1.2k 回答</span><span>3.8k 关注</span></div>
+          </article>
+          <article class="card topic">
+            <p class="tag">生活方式</p>
+            <h3>极简生活的真正意义</h3>
+            <p>简化物质的同时，如何保留情感与仪式感。</p>
+            <div class="meta"><span>860 回答</span><span>2.1k 关注</span></div>
+          </article>
+          <article class="card topic">
+            <p class="tag">职场 · 成长</p>
+            <h3>远程办公的最佳实践</h3>
+            <p>工具、节奏与团队氛围的平衡，如何长期保持高效与舒适。</p>
+            <div class="meta"><span>640 回答</span><span>1.6k 关注</span></div>
+          </article>
+        </div>
+      </section>
+
+      <section id="answers" class="section">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">精选回答</p>
+            <h2>值得细读的长篇观点</h2>
+          </div>
+          <button class="btn ghost">更多回答</button>
+        </div>
+        <div class="stack">
+          <article class="answer">
+            <div class="answer-meta">
+              <span class="avatar">L</span>
+              <div>
+                <div class="name">林栖 · 城市规划师</div>
+                <div class="time">15 分钟前 · 3.4k 赞同</div>
+              </div>
+              <button class="btn text">关注作者</button>
+            </div>
+            <h3>“城市公园为什么正在走向‘轻体量’？”</h3>
+            <p>新的公园模型不再追求景观的炫技，而是通过社区共建，让每个居民都是“园长”。绿地、运动、阅读角一体化，才是未来的公共空间范式。</p>
+            <div class="answer-actions">
+              <button class="chip">阅读 5 分钟</button>
+              <button class="chip ghost">保留到稍后</button>
+            </div>
+          </article>
+
+          <article class="answer">
+            <div class="answer-meta">
+              <span class="avatar">A</span>
+              <div>
+                <div class="name">阿眠 · 设计研究员</div>
+                <div class="time">1 小时前 · 2.7k 赞同</div>
+              </div>
+              <button class="btn text">关注作者</button>
+            </div>
+            <h3>“当大家都在用 AI 设计时，设计师还有什么独特价值？”</h3>
+            <p>真正的壁垒是系统思考：从问题定义、数据治理，到体验一致性的审美判断。AI 会缩短落地周期，但“定义问题”的能力仍然是设计师不可替代的核心。</p>
+            <div class="answer-actions">
+              <button class="chip">阅读 8 分钟</button>
+              <button class="chip ghost">收藏</button>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="collections" class="section highlight">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">专栏精选</p>
+            <h2>像杂志一样沉浸阅读</h2>
+            <p class="sub">精选封面、流畅排版、舒适留白，将知乎式的克制和优雅融入每一页。</p>
+          </div>
+          <button class="btn primary">订阅更新</button>
+        </div>
+        <div class="grid columns-2">
+          <article class="collection-card">
+            <div class="cover gradient-1"></div>
+            <div class="collection-body">
+              <div class="eyebrow">科技 · 观察</div>
+              <h3>未来生产力</h3>
+              <p>用故事讲述人工智能如何改变工作流、个人成长与行业竞争版图。</p>
+              <div class="meta"><span>18 篇文章</span><span>4.2k 订阅</span></div>
+            </div>
+          </article>
+          <article class="collection-card">
+            <div class="cover gradient-2"></div>
+            <div class="collection-body">
+              <div class="eyebrow">人文 · 生活</div>
+              <h3>温度与秩序</h3>
+              <p>以空间、物件和日常仪式感为线索，记录城市生活的质感片段。</p>
+              <div class="meta"><span>12 篇文章</span><span>3.1k 订阅</span></div>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-brand">
+        <div class="brand-mark">知</div>
+        <div>
+          <div class="brand-title">知感社区</div>
+          <div class="brand-subtitle">保持好奇，分享真知。</div>
+        </div>
+      </div>
+      <div class="footer-links">
+        <a href="#">关于我们</a>
+        <a href="#">反馈与支持</a>
+        <a href="#">用户协议</a>
+        <a href="#">隐私政策</a>
+      </div>
+      <div class="footer-meta">© 2024 Zhigan. Inspired by Zhihu’s clarity and calm.</div>
+    </footer>
+  </div>
+</body>
+</html>
